@@ -12,6 +12,9 @@ export const App = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   //UseEffect
+  //UseEffect
+  //UseEffect
+  //UseEffect
 
   useEffect(() => {
     setIsLoading(true);
