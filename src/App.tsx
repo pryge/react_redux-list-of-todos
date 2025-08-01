@@ -19,7 +19,10 @@ export const App = () => {
   useEffect(() => {
     setIsLoading(true);
 
-    fetch('https://jsonplaceholder.typicode.com/todos?_limit=5')
+    fetch(
+      // eslint-disable-next-line max-len
+      'https://mate-academy.github.io/react_dynamic-list-of-todos/api/todos.json',
+    )
       .then(res => res.json())
       .then(data => {
         setTimeout(() => {

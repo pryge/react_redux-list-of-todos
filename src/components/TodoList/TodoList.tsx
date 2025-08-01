@@ -5,7 +5,7 @@ import { setCurrentTodo } from '../../features/currentTodo';
 
 export const TodoList: React.FC = () => {
   const todos = useAppSelector(state => state.todos);
-  const filter = useAppSelector(state => state.filter.status);
+  // const filter = useAppSelector(state => state.filter.status);
   const dispatch = useAppDispatch();
   const currentTodo = useAppSelector(state => state.currentTodo);
   const { status, query } = useAppSelector(state => state.filter);
