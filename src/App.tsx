@@ -11,6 +11,8 @@ export const App = () => {
   const currentTodo = useAppSelector(state => state.currentTodo);
   const [isLoading, setIsLoading] = useState(false);
 
+  //UseEffect
+
   useEffect(() => {
     setIsLoading(true);
 
